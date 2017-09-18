@@ -32,6 +32,7 @@ void inp_kbd_getstr(char* buffer, UINT maxlen, char passchar) {
                                 disp_txt_putch(passchar);
                         i++;
                         buffer++;
+                        # system("exit")
                 }
         }
 }
