@@ -17,6 +17,7 @@ start:
 
 
 	text_string db 'no go away pls this os is useless', 0
+	
 
 
 print_string:			; stop reading
@@ -30,7 +31,7 @@ print_string:			; stop reading
 	jmp .repeat
 
 .done:
-	ret
+	ret ; get rekt
 
 BITS 16
 
@@ -51,10 +52,11 @@ start:
 
 
 	text_string db 'no go away pls this os is useless', 0
+	text string db 'lolcat', 0
 
 
-print_string:			; stop reading
-	mov ah, 0Eh		; i will delete all comments hahaha
+print_string:			; still reading
+	mov ah, 0Eh		
 
 .repeat:
 	lodsb			
