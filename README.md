@@ -1,4 +1,6 @@
 # OwO
-dont run this on your host | yes no kernel.asm we got *C P L U S P L U S  A N D  A S S E M B L Y* boyz 
+dont run this on your host
 
-\<div style="background-color: #FF0000">C\++\ and Assembly</div>\
+yes no kernel.asm we got *C P L U S P L U S  A N D  A S S E M B L Y* boyz 
+
+> C\++ and Assembly
